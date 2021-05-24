@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content-box,.links-box{
+	width:1010px;
+	margin:0px auto;
+	font-size:95%;
+	overflow:hidden;
+}
+
+	.content-box p{
+		margin-bottom:20px;
+    color:#fff;
+	}
+	dl.banner{
+		float:left;
+		display:inline;
+		width:250px;
+	}
+	dl.detailed{
+		float:right;
+		display:inline;
+		width:550px;
+		border:1px #88878b solid;
+		padding:15px;
+		}
+		dl.detailed dd{
+			margin-left:10px;
+			font-size:90%;
+			color:#ACACAC;
+		}
+		.link-section dl dt{
+			margin-bottom:5px;
+      color:#fff
+
+		}
+		.link-section dl dd{
+			margin-bottom:10px;
+      color:#fff
+
+		}
+
+.link_form{
+	margin:40px auto;
+	}
+	.link_form form span{
+		color:#FF0000;
+		font-size:90%;
+		vertical-align: text-bottom;
+	}
+	.link_form p.tx_right,.link_form table{
+		width:800px;
+		margin:0px auto;
+	}
+	.link_form p.tx_right{
+		margin:10px auto;
+		text-align:right;
+		padding-right:10px;
+	}
+	.link_form table{
+		border-top:1px #88878b solid;
+		border-left:1px #88878b solid;
+		table-layout:fixed;
+		font-size:90%;
+		}
+		.link_form table th,.link_form table td{
+			border-bottom:1px #88878b solid;
+			border-right:1px #88878b solid;
+			padding:10px;
+		}
+		.link_form table th{
+			width:250px;
+      color:#fff;
+		}
+
+.links-box{
+	border:1px #88878b solid;
+	}
+	.links-box h1{
+		padding:10px 10px 5px 10px;
+    color:#fff;
+	}
+	.links-box h2{
+		padding:10px 10px 5px 10px;
+    color:#fff;
+	}
+	.links-box ul{
+		padding:0px 10px 5px 10px;
+		overflow:hidden;
+	}
+	.links-box ul li{
+		float:left;
+		display:inline;
+		margin-left:2px;
+		margin-bottom:5px;
+	}
+	.links-box ul li:nth-child(11n+1){
+		clear:both;
+		margin-left:0px;
+	}

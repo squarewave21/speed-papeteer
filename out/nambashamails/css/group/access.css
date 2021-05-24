@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.article{
+	width:900px;
+	margin:20px auto 0px auto;
+	font-size:90%;
+	overflow:hidden;
+	background:#FFF;
+}
+
+	.article p{
+		float:left;
+		display:inline;
+		font-size:95%;
+	}
+	.article p:first-child{
+		width:300px;
+	}
+	.article p:last-child{
+		width:600px;
+	}
+
+	.access_movie{
+		width:560px;
+		float:left;
+		display:inline;
+		margin-top:40px;
+		}
+		.access_movie div:nth-of-type(1){
+			margin-bottom:60px;
+		}
+
+		.access_movie h1,.access-photo h1{
+			background:#FF49A1;
+			text-align:center;
+			font-size:110%;
+			margin-bottom:5px;
+		}
+		.access_movie h1:nth-of-type(2),.access-photo h1:nth-of-type(2){
+			margin-top:20px;
+		}
+
+	.access-photo{
+		width:270px;
+		float:right;
+		display:inline;
+		margin-top:40px;
+		}
+		.access-photo h1{
+			font-size:100%;
+		}
+
+
+	.accesses_main{
+		width:854px;
+		height:909px;
+		background:url(../../img/group/accesses_back.png) no-repeat;
+		margin:20px auto;
+		position:relative;
+	}
+		dl.accesses_umeda{
+			position:absolute;
+			right:372px;
+			top:50px;
+			font-size:13px;
+		}
+		dl.accesses_nanba{
+			position:absolute;
+			left:275px;
+			top:594px;
+		}
+		dl.accesses_nippon{
+			position:absolute;
+			right:280px;
+			top:587px;
+		}
+		dl.accesses_mix{
+			position:absolute;
+			right:138px;
+			bottom:65px;
+		}
+		dl.accesses_kyoubashi{
+			position:absolute;
+			right:77px;
+			top:196px;
+		}
+		dl.accesses_tanimachi{
+			position:absolute;
+			right:127px;
+			top:596px;
+			letter-spacing:-1px;
+		}
+		.accesses_main dd{
+			text-align:center;
+			display:block;
+			line-height:1;
+			padding-bottom:2px;
+		}
+
+			.accesses_main dl a{
+				color:#E61E87;
+				font-weight:bold;
+				font-size:100%;
+			}

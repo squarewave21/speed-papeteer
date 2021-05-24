@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contents-section > h1,.contents_bottom > h1{
+	margin-bottom:0px;
+}
+
+.newface_list-section{
+	width:1010px;
+	margin:0px auto;
+	}
+	.newface_list-section li.list{
+		float:left;
+		display:inline;
+		margin-left:10px;
+	}
+	.newface_list-section li.list:nth-child(2n+1){
+		margin-left:0px;
+	}
+	
+	
+	

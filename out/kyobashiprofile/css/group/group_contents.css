@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+article {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+    article h3 {
+        font-size: 25px;
+        background: #FF00A8;
+        color: #fff;
+        padding: 8px 30px;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    article time {
+        float: right;
+        margin-right: 30px;
+        position: absolute;
+        top: 11px;
+        right: 0;
+        color: #fff;
+    }
+    article img {
+        float: right;
+        clear: both;
+        overflow: hidden;
+        margin: 0 30px 30px;
+        width: 240px;
+        height: 320px;
+    }
+    article p {
+        font-size: 16px;
+        padding: 0 30px;
+        margin-bottom: 150px;
+        color:#fff;
+    }

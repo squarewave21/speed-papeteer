@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 + p{
+	width:1010px;
+	margin:20px auto;
+	font-size:90%;
+	color:#000000;
+}
+
+.content-box{
+	width:1010px;
+	margin:10px auto 20px auto;
+	border:1px #FF238F solid;
+	font-size:90%;
+	overflow:hidden;
+	color:#001eff;
+	}
+	.content-box dl{
+		}
+		.content-box dl dt{
+			background-color: rgba(255,255,255,0.2);
+			padding:10px 10px 5px 10px;
+		}
+		.content-box dl dd{
+			padding:20px;
+		}
+		.content-box dl dd.middle input[type="text"],.content-box dl dd select{
+			width:20%;
+			margin:5px 0px 0px 5px;
+			}
+			.content-box label{
+				display:inline;
+				width:auto;
+				margin-right:15px;
+				white-space:nowrap;
+			}
+			.content-box label input{
+				width:auto;
+				margin-right:3px;
+			}

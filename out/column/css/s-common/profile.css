@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+
+.profile-section{
+	width:1010px;
+	margin:0px auto;
+	color:#fff;
+}
+.profile-section  .section-box ul li dl dt  {
+	color:#fff;
+}
+.section-box,.more{
+	border-top:none;
+	border-right:1px #626266 solid;
+	border-bottom:1px #626266 solid;
+	border-left:1px #626266 solid;
+}
+/* もっと見るボタン */
+	.more{
+		background:#FF0B8E;
+		font-size:80%;
+		font-weight:bold;
+		text-align:right;
+		}
+		.more span{
+			background:#000;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			padding:2px 15px 1px;
+			display:inline-block;
+			margin:2px 5px;
+		}
+
+
+.left-content{
+	width:610px;
+	height:auto;
+	float:left;
+	display:inline;
+	overflow:hidden;
+	}
+	/* 写真部分 */
+	.left-content .photo-box{
+		overflow:hidden;
+		}
+		.left-content ul#mainimage{
+			overflow:hidden;
+			width:500px;
+			height:667px;
+			float:left;
+			display:inline;
+			background:#000;
+			}
+		.left-content ul#btn{
+			overflow:hidden;
+			width:95px;
+			float:right;
+			display:inline;
+			}
+			.left-content ul#btn li{
+				width:95px;
+				height:127px;
+				cursor: pointer;
+				margin-bottom:8px;
+				}
+			.left-content ul#btn li:last-child{
+				margin-bottom:0px;
+				}
+				.left-content ul#btn li img{
+					width:100%;
+				}
+	/* 写真下部 */
+	.btn{
+		width:auto;
+		overflow:hidden;
+		margin:10px auto 40px auto;
+		}
+		.btn div{
+			width:295px;
+			height:57px;
+			background:url(../../img/common/prof_photo-bottom_box.jpg) no-repeat center top;
+			float:left;
+			display:inline;
+			text-align:center;
+		}
+		.btn .time{
+			float:right;
+			display:table;
+			}
+			.btn .time p{
+				display:table-cell;
+				vertical-align: middle;
+				text-align:center;
+				padding-top:3px;
+				font-weight:bold;
+				font-size: 120%;
+				line-height: 1.2;
+				color:#fff;
+			}
+	/* 可能オプション */
+	.option-section{
+		width:333px;
+		float:left;
+		display:inline;
+		}
+		.option-section .section-box{
+			height:605px;
+			overflow:auto;
+			}
+		.option-section ul{
+			border:none;
+		}
+	/* 出勤情報・写メ動画　共通 */
+	.schedule-section,.movie-section{
+		width:260px;
+		float:right;
+		display:inline;
+	}
+	/* 出勤情報 */
+	.schedule-section dl{
+		overflow:hidden;
+		width:220px;
+		margin:0px auto;
+		padding:12px 0px;
+		}
+		.schedule-section dl dt,.schedule-section dl dd{
+			float:left;
+			display:inline;
+			padding:3px 0px 2px 0px;
+			margin-top:5px;
+		}
+		.schedule-section dl dt:nth-of-type(1),.schedule-section dl dd:nth-of-type(1){
+			margin-top:0px;
+		}
+		.schedule-section dl dt{
+			color:#ffffff;
+			border:1px #DB0B6D solid;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			clear:both;
+			background:#DB0B6D;
+			margin-right:10px;
+			width:95px;
+			text-align:center;
+		}
+		.schedule-section dl dd{
+			width:115px;
+		}
+	/* 写メ動画 */
+	.movie-section{
+		margin-top:15px;
+		}
+		.movie-section .section-box{
+			padding:10px 0px 5px 0px;
+			overflow: scroll;
+			max-height: 216px;
+		}
+		.movie-section .privete-image,.movie-section .comment{
+			width:235px;
+			margin:0px auto;
+			}
+		.movie-section .privete-image{
+			height:177px;
+			overflow:hidden;
+			}
+			.movie-section .privete-image img{
+				width:100%;
+			}
+		.movie-section .comment .comment-day{
+			font-size:80%;
+			margin-top:5px;
+			}
+
+.right-content{
+	width:373px;
+	height:auto;
+	float:right;
+	display:inline;
+	overflow:hidden;
+	}
+	/* プロフィール */
+	.profile{
+		font-size:120%;
+		font-weight:bold;
+		}
+		.profile span{
+			font-size:80%;
+			font-weight:100;
+			padding-left:10px;
+		}
+	/* 特別指名料 */
+	dl.girls-price {
+		color: #fa3b9e;
+		height: auto;
+		margin: 10px auto;
+		padding:7px 10px 5px 10px;
+		overflow: hidden;
+		border:1px #FFFFFF solid;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		}
+		dl.girls-price dt {
+			display: inline;
+			float: left;
+			width: 90px;
+		}
+		dl.girls-price dd {
+			display: inline;
+			float: left;
+		}
+		dl.girls-price dd.icon {
+			float: right;
+			}
+			dl.girls-price dd img{
+				vertical-align:top;
+			}
+	/* アイコン */
+	.right-content ul.icon li,.right-content .icon li:nth-child(3){
+		width:90px;
+		margin:0px 0px 0px 4px;
+		text-align:center;
+		font-size:80%;
+		padding-top:5px;
+		color:#ffffff;
+	}
+	.right-content .icon li:nth-child(3){
+		margin:0px 0px 0px 4px !important;
+	}
+	/* 50の質問 */
+	.right-content .girls-question{
+		margin:10px auto;
+		}
+	div#framer{
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		}
+		#question_box{
+			background: #070707;
+			border: 7px solid #eee;
+			display: none;
+			height: 680px;
+			width: 800px;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			overflow:hidden;
+			}
+			#question_box h1{
+				background:#FF048B;
+				color: #FFF;
+				font-size:120%;
+				font-weight:bold;
+				padding:10px;
+				text-align:center;
+				border-radius: 4px 4px 0px 0px;
+				-moz-border-radius: 4px 4px 0px 0px;
+				-webkit-border-radius: 4px 4px 0px 0px;
+			}
+			#question_box .article{
+				color:#FFF;
+				overflow:auto;
+				height: 620px;
+				font-size:95%;
+				padding:40px 20px;
+				}
+				#question_box .article dl dt{
+					font-weight:bold;
+					color:#333;
+					background:#FFF;
+					border-radius: 4px;
+					-moz-border-radius: 4px;
+					-webkit-border-radius: 4px;
+					padding:0px 10px;
+					}
+					#question_box .article dl dt span{
+						padding-right:10px;
+						font-size:150%;
+					}
+				#question_box .article dl dd{
+					margin:5px 0px 30px 0px;
+					padding:0px 10px;
+					}
+					#question_box .article dl dd span{
+						color:#FF048B;
+						font-weight:bold;
+						font-size:150%;
+						float:left;
+						display:inline;
+					}
+					#question_box .article dl dd p{
+						padding:7px 0px 0px 35px;
+					}
+	/* コメント */
+	.shop-comment{
+		width:auto;
+		height:250px;
+		border:1px #626266 solid;
+		overflow:auto;
+		font-size:85%;
+		padding:20px;
+		margin-bottom:20px;
+
+	}
+	/* 写メ日記 */
+	.private-photo .section-box{
+		height:917px;
+		overflow:auto;
+		}
+		.private-photo .section-box .article{
+			margin:15px 15px 0px 15px;
+			padding:0px 0px 15px 0px;
+			border-bottom:1px #FFF dashed;
+			overflow:hidden;
+			}
+			.private-photo .section-box .article .photo{
+				float:left;
+				display:inline;
+				width:154px;
+				}
+				.private-photo .section-box .article .photo img{
+					max-width:154px;
+				}
+			.private-photo .section-box .article .comment-box{
+				float:right;
+				display:inline;
+				width:170px;
+				}
+				.private-photo .section-box .article .comment-box .day{
+					font-size:80%;
+				}

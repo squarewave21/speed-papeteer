@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  background: url(../../img/nippon/background.jpg) repeat-y center top;
+		background-attachment: fixed;
+    color: #FFF;
+    min-width: 1040px;
+    background-size: cover;
+  }
+
+#h1-top-header {
+		margin-top: 45px;
+		height:320px;
+
+}
+	#shop-desc{
+		clear:both;
+		font-size:12px;
+		color:#fff;
+		width:97%;
+		margin:0 auto;
+		text-align:right;
+		position:relative;
+		top:-442px;
+	}
+		#shop-desc span{
+				position: relative;
+				display: block;
+		}
+		#shop-desc span.shop-desc-name{
+				top: 449px;
+		}
+		#shop-desc span.shop-desc-info{
+				top: 450px;
+		}

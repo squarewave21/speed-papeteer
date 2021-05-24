@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  background:#000;
+  color:#FFF;
+  min-width:1024px !important;
+}
+#ent_section h1 {
+    color: #E0E0E0;
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+/* 各店エントランス */
+#ent_section{
+  width:1040px;
+  height:650px;
+  margin:0 auto;
+  overflow:hidden;
+  position: relative;
+  }
+  #ent_section p{
+    width:47%;
+    /*float:left;
+    display:inline;*/
+    margin:0 1% 1% 1%;
+    display: inline-block;
+  }
+  #ent_section p img{
+    width:100%;
+  }
+  #ent_section p img.gekiyasu {
+    width: 75%;
+    margin-left: 70px;
+  }
+  #ent_section .ent24{
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    width: 40%;
+  }
+
+  #ent_section .ent_24h {
+    text-align: center;
+    margin-top: 20px;
+  }
+/* フッター */
+#bottom_section{
+  width:100%;
+  background:#000;
+  padding:2% 0;
+  }
+  /* 求人バナー */
+  #bottom_section > ul{
+    width:1050px;
+    margin:0px auto;
+    overflow:hidden;
+    text-align: center;
+    }
+    #bottom_section > ul li {
+      display: inline;
+      margin: 0 0 10px 10px;
+    }
+    #bottom_section > ul li:nth-of-type(1), #bottom_section ul li:nth-of-type(3) {
+      margin-left: 0;
+    }
+  /* 18禁 */
+  #bottom_section .leave {
+    margin: 2% auto;
+    overflow: hidden;
+    width: 620px;
+    }
+    #bottom_section .leave .comment {
+      display: block;
+      float: left;
+      padding: 10px;
+      text-align: center;
+      width: 480px;
+      }
+      #bottom_section .leave img {
+        display: inline;
+        float: left;
+        width: 70px;
+      }
+      #bottom_section .leave a{
+        color:#FFF;
+        font-size:90%;
+      }
+  #bottom_section .notification{
+    font-size:90%;
+    text-align:center;
+    color:#999;
+    }
+    .bottom_text {
+        text-align: center;
+        font-size: 12px;
+        color: #D1D1D1;
+    }
+/* 背景動画用 */
+.contents-bg{
+  }
+  #video-background {
+    height: 650px;
+    min-height: 650px;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    z-index: -100;
+    opacity:0.4;
+    background:url(../img/entrance/ent-bg.jpg) no-repeat center top;
+    background-size:contain;
+  }
+  .contents-bg .bg{
+    background:url(../img/entrance/bg_dot.png) repeat;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 650px;
+    z-index: -90;
+  }
+section#copy {
+    text-align: center;
+}
+
+#link_area{
+	width:100%;
+	margin:10px auto;
+	text-align:center;
+}
+	#link_area a{
+		display: inline-block;
+		padding: 5px;
+		border: 2px solid rgb(255, 61, 136);
+		border-radius: 4px;
+		text-decoration: none;
+		color: #ccc;
+	}
+		#link_area a:hover{
+			background-color: rgba(255, 61, 136, .5);
+		}
+
+/*新着ボトムコンテンツ*/
+.bottom_contents {
+    width: 800px;
+    margin: 100px auto 0;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+  .bottom_contents h2 {
+      color: #FFFFFF;
+  }
+  .bottom_contents ul {
+      width: 800px;
+      margin: 0 auto;
+  }
+    .bottom_contents ul li {
+        width: 398px;
+        float: left;
+        text-align: center;
+        border: 1px solid #585959;
+        border-top: none;
+        position: relative;
+    }
+      .bottom_contents ul li:nth-child(even) {
+          border-left: none;
+        }
+      .bottom_contents ul li:first-child {
+          border-top: 1px solid #585959;
+        }
+      .bottom_contents ul li:nth-child(2) {
+          border-top: 1px solid #585959;
+        }
+
+        .bottom_contents ul li a {
+            color: #FFF;
+            padding: 11px;
+            display: block;
+            font-size: 12px;
+        }
+          .bottom_contents ul li a:hover {
+              color: #FFFFFF;
+              background: #585959;
+          }
+
+        .bottom_contents ul li time {
+          background: #FFFFFF;
+          color: #161616;
+          padding: 1px 3px;
+          font-size: 11px;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+/*エントランスボトムコンテンツ用CSS*/
+article {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+    article h3 {
+        font-size: 17px;
+        background: #FF00A8;
+        color: #fff;
+        padding: 4px 20px;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+      article h3 a {
+          color: #fff;
+      }
+        article h3 a:hover {
+            color: #CBCBCB;
+        }
+    article time {
+        float: right;
+        margin-right: 20px;
+        position: absolute;
+        top: 11px;
+        right: 0;
+        color: #fff;
+    }
+    article img {
+        float: right;
+        clear: both;
+        overflow: hidden;
+        margin: 0 30px 30px;
+        width: 190px;
+    }
+    article p {
+        font-size: 14px;
+        padding: 0 30px;
+        margin-bottom: 30px;
+    }
+
+  .contents-section > a {
+      float: right;
+      color: #CBCBCB;
+      padding-right: 20px;
+      margin-top: 6px;
+      position: relative;
+  }
+  .contents-section > a:after {
+      content: "";
+      position: absolute;
+      border-top: 8px solid transparent;
+      border-right: 12px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-left: 12px solid #CBCBCB;
+      right: -8px;top: 2px;
+  }
+  .contents-section article:last-of-type {
+      border-bottom: 1px dotted #7B7B7B;
+  }

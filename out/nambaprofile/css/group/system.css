@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.system-section{
+	width:980px;
+	margin:0px auto;
+	overflow:hidden;
+	}
+	.system-left{
+		width:580px;
+		float:left;
+		display:inline;
+		}
+		.system-left h1{
+			border-top:1px #504f51 solid;
+			border-bottom:1px #504f51 solid;
+			padding:10px 0px 10px 5px;
+			margin:80px auto 20px auto;
+		}
+	.system-right{
+		width:333px;
+		float:right;
+		display:inline;
+		}
+		.system-right h1{
+			margin-bottom:5px;
+		}
+		.cosplay-section{
+			margin-bottom:20px;
+			}
+			.cosplay-section .bx-wrapper{
+				padding:20px 46px !important;
+				border:1px #FFF solid;
+			}
+			.cosplay-section .bx-controls{
+				height:33px;
+			}
+			.cosplay-section .bx-wrapper .bx-controls-direction a{
+				bottom:0;
+				margin-bottom: 10px;
+				}
+				.cosplay-section .bx-wrapper .bx-prev{
+					left:46px;
+				}
+				.cosplay-section .bx-wrapper .bx-next{
+					right:46px;
+				}
+				.cosplay-section .bx-wrapper .bx-caption span{
+					text-align:center;
+				}
+				
+				
+				

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content-box{
+	width:1010px;
+	margin:0px auto;
+	overflow:hidden;
+	}
+	.content-box .area {
+			display: none;
+		}
+		.content-box .area .list-box{
+			overflow:hidden;
+			margin:20px 20px 0px 20px;
+		}
+
+		.content-box h3{
+			padding:3px 15px;
+			overflow:hidden;
+			font-size:110%;
+			margin-bottom:15px;
+			}
+			.content-box h3 p{
+				font-weight:bold;
+				float: left;
+				display: inline;
+				width:200px;
+			}
+			.content-box h3 span{
+				margin:0px;
+				float:right;
+				font-size:80%;
+				width:auto;
+			}
+			.privete-image{
+				width:350px;
+				float:left;
+				display:inline;
+				}
+				.privete-image img{
+					max-width:350px;
+				}
+			.comment{
+				float:right;
+				display:inline;
+				background: #fff;
+				color: #000;
+				text-align: center;
+				width: 562px;
+				padding: 10px 20px;
+				border-radius: 12px;
+				position: relative;
+			}
+			.comment:before{
+				content: "";
+				position: absolute;
+				left: -42px;
+				top: 30px;
+				border: 16px solid transparent;
+				border-right: 26px solid #fff;
+				}
+				.comment .comment-day{
+					text-align:right;
+					font-size:90%;
+					font-weight:bold;
+				}
+				.comment .comment-title{
+					font-size:110%;
+					font-weight:bold;
+				}
+				.comment .comment_inner{
+					margin:15px 0px 10px 0px;
+				}
+				.comment .bt-good{
+					height: 31px;
+					line-height: 1;
+					}
+					.comment .bt-good a{
+						color: #ff008a;
+						font-weight: bold;
+					}

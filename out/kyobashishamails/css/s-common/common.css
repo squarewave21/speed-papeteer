@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	background-color: rgba(0,0,0,0.6);
+}
+
+.sub-attend{
+	display:inline-block;
+	background:#000;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color:#FFF;
+}
+
+p.time{
+	font-size:85%;
+	padding:3px 0px;
+	color:#fff;
+}
+
+
+/* 女の子一覧 */
+.list-section{
+	overflow:hidden;
+	}
+	.list-section li p,.list-section li div,.list-section li ul li{
+		text-align:center;
+	}
+	.list-section .list{
+		width:150px;
+		float:left;
+		display:inline;
+		margin:0px 0px 5px 14px;
+		padding:5px 0px 12px 0px;
+		border-bottom:1px #4e4c4e dotted;
+		font-size:90%;
+		}
+		.list p.wait{
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #09c300), color-stop(0.59, #019329), color-stop(0.45, #027923));
+			background: -webkit-linear-gradient(top, #027923 45%, #019329 59%, #09c300 100%);
+			background: -moz-linear-gradient(top, #027923 45%, #019329 59%, #09c300 100%);
+			background: -o-linear-gradient(top, #027923 45%, #019329 59%, #09c300 100%);
+			background: -ms-linear-gradient(top, #027923 45%, #019329 59%, #09c300 100%);
+			background: linear-gradient(to bottom, #027923 45%, #019329 59%, #09c300 100%);
+			font-weight:bold;
+		}
+		
+	.list-section .name{
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #FF00C0), color-stop(0.52, #FF00BA), color-stop(0.51, #FF52C1), color-stop(0.00, #FF008B));
+		background: -webkit-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+		background: -moz-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+		background: -o-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+		background: -ms-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+		background: linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+		margin-bottom:3px;
+		width: 150px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.photo{
+		width:150px;
+		height:200px;
+		overflow:hidden;
+		position:relative;
+		}
+		.photo ul.icon-image{
+			position:absolute;
+			bottom:3px;
+			right:3px;
+			}
+			.photo ul.icon-image li{
+				display:inline;
+			}
+	.list-section .size{
+		font-size:75%;
+		color:#fff;
+	}
+	.icon{
+		overflow:hidden;
+		}
+		.icon li{
+			width:74px;
+			margin:3px 0px 0px 2px;
+			float:left;
+			display:inline;
+			font-size:75%;
+			background:#FF048B;
+			line-height:1;
+			padding:3px 0px;
+		}
+		.icon li:nth-child(2n+1){
+			margin-left:0px !important;
+		}
+	/* 今すぐＯＫの場合 */
+	li.now .photo{
+		background:#000;
+		}
+		li.now .photo img{
+			-webkit-animation:blink 1s ease-in-out infinite alternate;
+			-moz-animation:blink 1s ease-in-out infinite alternate;
+			animation:blink 1s ease-in-out infinite alternate;
+			}
+			@-webkit-keyframes blink{
+				 50% {opacity:0.5;}
+				100% {opacity:1;}
+			}
+			@-moz-keyframes blink{
+					 50% {opacity:0.5;}
+					 100% {opacity:1;}
+			}
+			@keyframes blink{
+					50% {opacity:0.5;}
+					100% {opacity:1;}
+			}
+
+/* リアルタイム */
+	.realtime_contents li.now p.wait{
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #FF9D00), color-stop(0.51, #FF4E0D), color-stop(0.51, #FF7007), color-stop(0.00, #FF3410));
+		background: -webkit-linear-gradient(top, #FF3410 0%, #FF7007 51%, #FF4E0D 51%, #FF9D00 100%);
+		background: -moz-linear-gradient(top, #FF3410 0%, #FF7007 51%, #FF4E0D 51%, #FF9D00 100%);
+		background: -o-linear-gradient(top, #FF3410 0%, #FF7007 51%, #FF4E0D 51%, #FF9D00 100%);
+		background: -ms-linear-gradient(top, #FF3410 0%, #FF7007 51%, #FF4E0D 51%, #FF9D00 100%);
+		background: linear-gradient(top, #FF3410 0%, #FF7007 51%, #FF4E0D 51%, #FF9D00 100%);
+	}
+	.realtime_contents li p.wait{
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #8C13FF), color-stop(0.51, #5300B2), color-stop(0.51, #5F0AB7), color-stop(0.00, #8C13FF));
+		background: -webkit-linear-gradient(top, #8C13FF 0%, #5F0AB7 51%, #5300B2 51%, #8C13FF 100%);
+		background: -moz-linear-gradient(top, #8C13FF 0%, #5F0AB7 51%, #5300B2 51%, #8C13FF 100%);
+		background: -o-linear-gradient(top, #8C13FF 0%, #5F0AB7 51%, #5300B2 51%, #8C13FF 100%);
+		background: -ms-linear-gradient(top, #8C13FF 0%, #5F0AB7 51%, #5300B2 51%, #8C13FF 100%);
+		background: linear-gradient(top, #8C13FF 0%, #5F0AB7 51%, #5300B2 51%, #8C13FF 100%);
+	}
+
+/* 新人情報 */
+.newface_list-section{
+	overflow:hidden;
+	}
+	.newface_list-section li.list{
+		width:500px;
+		height:277px;
+		background:url(../../img/common/newface_bg.jpg) no-repeat center top;
+		margin:15px auto 0px auto;
+		padding:15px;
+		}
+		.newface_list-section li.list .left-box{
+			width:150px;
+			float:left;
+			display:inline;
+			}
+			.newface_list-section li.list .left-box li{
+				text-align:center;
+			}
+		.newface_list-section li.list .righr_box{
+			float:right;
+			display:inline;
+			width:310px;
+			color:#000;
+			font-size:90%;
+			}
+			.newface_list-section li.list .righr_box p.entry{
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #FF00C0), color-stop(0.52, #FF00BA), color-stop(0.51, #FF52C1), color-stop(0.00, #FF008B));
+				background: -webkit-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+				background: -moz-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+				background: -o-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+				background: -ms-linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+				background: linear-gradient(top, #FF008B 0%, #FF52C1 51%, #FF00BA 52%, #FF00C0 100%);
+				color:#FFF;
+				font-size:90%;
+				text-align:center;
+				float:left;
+				display:inline-block;
+				padding:0px 5px;
+			}
+			.newface_list-section li.list .righr_box p.wait-time{
+				text-align: right;
+				font-size:80%;
+				padding:2px 0px 4px 0px;
+				border-bottom:1px #000 dotted;
+				margin-bottom:6px;
+				color:#FF048B;
+			}
+			.newface_list-section li.list .righr_box .name{
+				float:left;
+				display:inline-block;
+				padding:0px 5px;
+				font-size:110%;
+			}
+			.newface_list-section li.list .righr_box .size{
+				text-align: right;
+				font-size:90%;
+				padding:4px 0px 2px 0px;
+				border-bottom:1px #000 dotted;
+				margin-bottom:6px;
+			}
+			.newface_list-section li.list .righr_box .comment{
+				font-size:85%;
+				}
+				.newface_list-section li.list .righr_box .comment .more{
+					float:right;
+					font-size:110%;
+					padding:0px 5px;
+				}
+
+
+/* 今すぐ等の説明部分 */
+p.days-attend{
+	width:1010px;
+	margin:0px auto;
+	text-align:center;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.99, #150C0B), color-stop(0.70, #080406), color-stop(0.33, #333333), color-stop(0.00, #150C0B));
+	background: -webkit-linear-gradient(top, #150C0B 0%, #333333 33%, #080406 70%, #150C0B 99%);
+	background: -moz-linear-gradient(top, #150C0B 0%, #333333 33%, #080406 70%, #150C0B 99%);
+	background: -o-linear-gradient(top, #150C0B 0%, #333333 33%, #080406 70%, #150C0B 99%);
+	background: -ms-linear-gradient(top, #150C0B 0%, #333333 33%, #080406 70%, #150C0B 99%);
+	background: linear-gradient(top, #150C0B 0%, #333333 33%, #080406 70%, #150C0B 99%);
+	border-left:1px #FFF solid;
+	border-right:1px #FFF solid;
+	border-bottom:1px #FFF solid;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	padding:5px 0px 10px 0px;
+}
+
+
+/* ページャー代わり */
+.pager-more{
+	width:1010px;
+	margin:30px auto 0px auto;
+	text-align:center;
+	background:#FF0B8E;
+	font-size:90%;
+	font-weight:bold;
+	padding:5px 0px 3px 0px;
+	color:#ffffff;
+}
+
+
+/* サブタイトル */
+.content-box h1{
+	background:#FF238F;
+	}
+	.content-box h1 span{
+		width:250px;
+		margin:2px 0px 2px 10px;
+		padding:5px 10px 3px 10px;
+	}
+.content-box h3{
+	background:#FF238F;
+	}
+	.content-box h3 span{
+		width:250px;
+		margin:2px 0px 2px 10px;
+		padding:5px 10px 3px 10px;
+	}	
+
+/* フォーム */
+input,textarea{
+	background:#FFFFFF;
+	padding:2px 5px;
+	width:100%;
+}
+.submit{
+	text-align:center;
+	margin-top:15px;
+	color:#fff;
+	}
+	.submit input{
+		width:auto;
+		cursor: pointer;
+		background:#ff00a6;
+		padding:7px 50px;
+		color:#FFF;
+		border:none;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+	}
+
+
+/* オプション */
+.option-section{
+	}
+	.option-section ul{
+		border:1px #FFF solid;
+		overflow:hidden;
+		padding:15px 0px 0px 0px;
+		}
+		.option-section ul li{
+			float:left;
+			display:inline;
+			width:44%;
+			max-width:142px;
+			margin:0px 0% 10px 5%;
+			font-size:90%;
+			}
+			.option-section ul li dl dt{
+				background:#FF0B8E;
+				text-align:center;
+				border-radius: 8px;
+				-moz-border-radius: 8px;
+				-webkit-border-radius: 8px;
+				margin-bottom:5px;
+			}
+			.option-section ul li dl dd{
+				color:#fff;	
+			}
+			.option-section ul li dl dd img{
+				width:100%;
+			}
+
+/* サブタブ */
+ul.other_tab-box{
+	width:1010px;
+	margin:0px auto;
+}
+ul.other_tab-box{
+	overflow:hidden;
+	margin:40px auto 0px auto;
+	border-bottom:15px #FF00A8 solid;
+	}
+	ul.other_tab-box li{
+		width:122px;
+		height:28px;
+		float:left;
+		display:inline;
+		background:url(../../img/common/tab.png) no-repeat center top;
+		text-align:center;
+		font-size:90%;
+		line-height:30px;
+		margin-left:20px;
+	}
+	ul.other_tab-box li.active{
+		background:url(../../img/common/tab_on.png) no-repeat center top;
+	}
+

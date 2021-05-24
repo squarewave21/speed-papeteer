@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content-box{
+	width:1010px;
+	margin:0px auto;
+	overflow:hidden;
+	}
+	.content-box .area {
+			display: none;
+	}
+
+.area ul li{
+	width:310px;
+	background:#FFF;
+	color:#000;
+	padding:5px;
+	margin:15px 0px 0px 20px;
+	float:left;
+	display:inline;
+	}
+	.area ul li p.prof{
+		font-weight:bold;
+		font-size:85%;
+	}
+	.area ul li .image{
+		width:300px;
+		height:169px;
+		overflow:hidden;
+		}
+		.area ul li .image img{
+			max-width:300px;
+		}
+	.area ul li p.sub-attend{
+		font-size:80%;
+		padding:0px 5px;
+		margin-top:5px;
+		float:left;
+		width:100%;
+	}
+	.area ul li p.sub-attend a{
+		float:right;
+	}
+
+

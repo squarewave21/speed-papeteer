@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content-box{
+	width:1010px;
+	margin:10px auto 20px auto;
+	border:1px #FF238F solid;
+	font-size:90%;
+	overflow:hidden;
+	color:#000000;
+	}
+	.content-box p{
+		margin:20px;
+		color:#000000;
+	}
+	.content-box table{
+		margin:0px 40px 20px 40px;
+		table-layout:fixed;
+		border-top:1px #88878b solid; 
+		border-left:1px #88878b solid; 
+		}
+		.content-box table th,.content-box table td{
+			padding:10px;
+			border-bottom:1px #88878b solid; 
+			border-right:1px #88878b solid; 
+		}
+		.content-box table th{
+			width:200px;
+		}
+		.content-box table td label{
+			display:inline-block;
+			width:135px;
+		}
+		.content-box table td input{
+			width:auto;
+			margin-right:3px;
+		}
+	.content-box .submit{
+		margin:0px auto 30px;
+		font-size:110%;
+	}
+
+	.content-box:nth-of-type(2) div{
+		width:147px;
+		float:left;
+		display:inline;
+		margin:20px 0px 20px 20px;
+	}
+	.content-box:nth-of-type(2) p{
+		width:800px;
+		float:right;
+		display:inline;
+		margin:20px 20px 20px 0px;
+	}
+	
+	
+/* 出勤メルマガ */
+	.section_check img,.section_list img{
+		float:left;
+		display:inline;
+		padding-right:20px;
+	}
+	/* 登録確認画面 */
+	.section_check table{
+		margin:0 auto 20px;
+		width:800px;
+		}
+		.section_check table th,.section_check table td{
+			padding:20px;
+			vertical-align:middle;
+			color:#000000;
+		}
+		.section_check table th{
+			text-align:center;
+		}
+		.section_check table td span{
+			padding-left:20px;
+		}
+	/* 登録完了画面 */
+	.section_add p{
+		text-align:center;
+		}
+		
+	/* 解除確認画面 */
+	.section_list table td span{
+		display: inline-block;
+    padding-top: 15px;
+		}
+
+
+
+
+
